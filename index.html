@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">  
+        
+        <style>
+            body{
+                background: url("img/bumper.jpg") no-repeat;
+	            background-size: cover;
+                min-height: 100%;
+                background-color: transparent;
+            }
+            #registro-form .image{
+	float:left;
+	background-image: url("img/wheel.jpg");
+	height: 550px;
+	width: 50%;
+	background-size: cover;
+	background-position: 25%;
+}
+
+        </style>
+
+    </head>
+    
+    <body>
+        <div class="container" id="registro-form">
+            <div class="image"></div>
+            <div class="padre">
+                <h1>Registra tu Automovil</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="username">Codigo del Vehiculo:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Codigo">
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Nombre del Vehiculo:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Costo del Vehiculo:</label>
+                        <input type="text" class="form-control" placeholder="Costo">
+                    </div>
+                    <form>
+                        <div class="form-group">
+                          <label for="text">Email del Fabricante:</label>
+                          <input type="email" class="form-control" placeholder="Email">
+                
+                        </div>
+                      </form>
+                      
+                    <div class="form-group">
+                        <button type="button" class="btn btn-light">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <script src="js/jquery-3.4.1.slim.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
